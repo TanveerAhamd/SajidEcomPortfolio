@@ -33,7 +33,7 @@ const Navbar = () => {
     { name: "Projects", href: "#projects", id: "projects" },
     { name: "Skills", href: "#skills", id: "skills" },
     { name: "Contact", href: "#contact", id: "contact" },
-    { name: "BlogSite", href: "https://robotapex.xyz/", id: "", target: "_blank" },
+    // { name: "BlogSite", href: "https://robotapex.xyz/", id: "", target: "_blank" },
   ];
 
   return (
@@ -50,7 +50,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/">
               <span className="text-xl font-bold text-primary">
-                <img src="./imgs/robotApex.png" alt="" style={{ height: "40px" }} />
+                <img src="./imgs/noonlogo.webp" alt="" style={{ height: "40px" }} />
                 {/* <img src="./imgs/bgremovedlogo.png" alt=""  style={{height:"40px"}} /> */}
               </span>
               {/* <span className="text-xl font-bold text-primary">{"</>RobotApex"}</span> */}
@@ -78,7 +78,7 @@ const Navbar = () => {
               ))}
               <li><ThemeSwitcher /></li>
               <li>
-                <Button
+                {/* <Button
                   size="sm"
                   className="ml-4"
                   asChild
@@ -87,7 +87,7 @@ const Navbar = () => {
                   <a href={resumeUrl} target="_blank" download="Tanveer_Ahmad_Dev_CV.pdf">
                     Resume
                   </a>
-                </Button>
+                </Button> */}
               </li>
             </Scrollspy>
 

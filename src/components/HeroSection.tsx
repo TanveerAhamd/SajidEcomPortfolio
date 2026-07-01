@@ -69,14 +69,14 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Tanveer{" "}
+            Sajid{" "}
             <motion.span
               className="highlight-text"
               initial={{ backgroundSize: "0% 3px" }}
               animate={{ backgroundSize: "100% 3px" }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              .Ahmad
+              .Hussain
             </motion.span>
           </motion.h1>
 
@@ -91,10 +91,11 @@ const HeroSection = () => {
             {shouldPlay && (
               <TypeAnimation
                 sequence={[
-                  '🚀 MERN Stack Developer', 3000,
-                  '👨‍💻 Junior Full-Stack Engineer', 4000,
-                  '🎨 Figma to Code with React + Tailwind', 4000,
-                  '🤖 Can build IoT Projects with Arduino', 4000,
+                  '🚀 Ecommerce Expert', 3000,
+                  '👨‍💻 A-Z Noon Acccount Management', 4000,
+                  '🎨 USA LLC Formation', 4000,
+                  '🤖 UAE VAT Registration Services', 4000,
+                  '🤖 Brand Approval Assistance', 4000,
                 ]}
                 wrapper="span"
                 speed={50}
@@ -115,7 +116,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             Building elegant solutions to complex problems with modern
-            technologies.
+            Businesses .
           </motion.p>
 
           <motion.div
@@ -142,9 +143,9 @@ const HeroSection = () => {
 
             {/* Social Links */}
             <div className="flex items-center gap-4 ml-0 lg:ml-4 mt-4 lg:mt-0">
-              {[Github, Linkedin, Mail].map((Icon, idx) => {
-                const labels = ["GitHub", "LinkedIn", "Email"];
-                const urls = [Links.github, Links.linkedin, Links.email];
+              {[Github, Mail].map((Icon, idx) => {
+                const labels = ["GitHub",  "Email"];
+                const urls = [Links.github, Links.email];
                 return (
                   <motion.a
                     key={idx}
@@ -201,14 +202,14 @@ const HeroSection = () => {
                   <div className="w-3 h-3 rounded-full bg-yellow-500" />
                   <div className="w-3 h-3 rounded-full bg-green-500" />
                 </div>
-                <div className="text-xs text-gray-500">developer.js</div>
+                <div className="text-xs text-gray-500">Noon Expert</div>
               </div>
               <div className="space-y-2 font-mono text-sm">
-                <div className="text-gray-500">{"// Software Engineer"}</div>
-                <div><span className="text-pink-600">const</span> <span className="text-blue-600">developer</span> = <span className="text-orange-500">{"{"}</span></div>
-                <div className="pl-6"><span className="text-purple-600">name</span>: <span className="text-green-600">'Tanveer | Ahmad'</span>,</div>
-                <div className="pl-6"><span className="text-purple-600">skills</span>: [<span className="text-green-600">'React'</span>, <span className="text-green-600">'Node.js'</span>, <span className="text-green-600">'Express'</span>],</div>
-                <div className="pl-6"><span className="text-purple-600">focuses</span>: [<span className="text-green-600">'Full-Stack'</span>, <span className="text-green-600">'UI/UX'</span>],</div>
+                {/* <div className="text-gray-500">{"// Software Engineer"}</div> */}
+                <div><span className="text-pink-600">const</span> <span className="text-blue-600">Noon Expert</span> = <span className="text-orange-500">{"{"}</span></div>
+                <div className="pl-6"><span className="text-purple-600">name</span>: <span className="text-green-600">'Sajid | Hussain'</span>,</div>
+                <div className="pl-6"><span className="text-purple-600">skills</span>: [<span className="text-green-600">'Account Management, Brand Approval, LLC Formation, Noon Account Setup, Listing Optimization, Sales Bootup Strategies'</span>],</div>
+                {/* <div className="pl-6"><span className="text-purple-600">focuses</span>: [<span className="text-green-600">'Full-Stack'</span>, <span className="text-green-600">'UI/UX'</span>],</div> */}
                 <div className="pl-6"><span className="text-purple-600">learning</span>: <span className="text-green-600">'Always'</span></div>
                 <div><span className="text-orange-500">{"}"}</span>;</div>
               </div>

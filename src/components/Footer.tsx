@@ -14,11 +14,10 @@ const Footer = () => {
           <div className="mb-6 md:mb-0 text-center md:text-left">
             {/* <span className="text-2xl font-bold text-primary">{"<CodeWithTanveer/>"}</span> */}
             <span className="text-2xl font-bold text-primary mb-10">
-                 <img src="./imgs/robotApex.png" alt="" style={{ height: "40px" }} />
+                 <img src="./imgs/noonlogo.webp" alt="" style={{ height: "40px" }} />
             </span>
             <p className="mt-2 text-muted-foreground max-w-md">
-              Building elegant digital solutions with a focus on user experience
-              and technical excellence.
+              Helping brands grow on Noon through strategic account management, optimized listings, and data-driven sales growth.
             </p>
           </div>
 
@@ -34,7 +33,7 @@ const Footer = () => {
               >
                 <Github size={20} />
               </a>
-              <a
+              {/* <a
                 href={Links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -42,7 +41,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-primary transition-colors"
               >
                 <Linkedin size={20} />
-              </a>
+              </a> */}
               <a
                 href={Links.email}
                 target="_blank"
@@ -55,7 +54,7 @@ const Footer = () => {
             </div>
             <div className="text-gray-400 text-sm text-right">
               <p>
-                © {currentYear} Tanveer Ahmad | Built with React and Tailwind
+                © {currentYear} Sajid Hussain | Built with React and Tailwind
               </p>
             </div>
           </div>

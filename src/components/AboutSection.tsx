@@ -74,8 +74,7 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-                Computer Science student passionate about building web applications using the MERN stack. I enjoy solving problems and creating useful digital solutions
-              </p>
+                Hi, I'm Sajid Hussain, a professional Noon Marketplace Expert dedicated to helping sellers succeed through complete A–Z account management, listing optimization, SEO, brand approval, and business growth solutions.              </p>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -93,16 +92,16 @@ const AboutSection = () => {
                       Education
                     </h3>
                     <div className="space-y-2">
-                      <p className="font-medium">BSCS in Computer Science</p>
+                      <p className="font-medium">MIT in Information Technology</p>
                       <p className="text-sm text-muted-foreground">
-                        Glims-College-BWP (Aff. with University of Sargodha-Pakistan)
+                        Virtual University of Pakistan
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        2017 - 2021
+                        2021 - 2023
                       </p>
-                      <p className="text-sm text-muted-foreground">
+                      {/* <p className="text-sm text-muted-foreground">
                         HOD,Professor Dr.Shahid Naveed (IUB-BWP)
-                      </p>
+                      </p> */}
                     </div>
                   </CardContent>
                 </Card>
@@ -123,16 +122,16 @@ const AboutSection = () => {
                     <div className="space-y-4">
                       <div>
                         <p className="font-medium">
-                          Junior MERN-Stack Dev
+                          Senior Noon Expert & A-Z Account Management
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          TICER Institute
+                          EcomZone (Ecommerce Solutions)
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          March-24 Present
+                          March-23 Present
                         </p>
                       </div>
-                      <div>
+                      {/* <div>
                         <p className="font-medium">MERN Stack Internship</p>
                         <p className="text-sm text-muted-foreground">
                           TEF(Tareen Education Foundation)
@@ -140,7 +139,7 @@ const AboutSection = () => {
                         <p className="text-sm text-muted-foreground">
                           August-23 March-24
                         </p>
-                      </div>
+                      </div> */}
                     </div>
                   </CardContent>
                 </Card>
@@ -163,24 +162,24 @@ const AboutSection = () => {
             >
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
-                  src="/imgs/mypic.webp"
-                  alt="Tanveer Ahmad"
+                  src="/imgs/mypic.jpeg"
+                  alt="Sajid Hussain"
                   loading="lazy"
                 />
                 <AvatarFallback>DEV</AvatarFallback>
               </Avatar>
-              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
+              {/* <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
                 3.28 GPA
-              </div>
+              </div> */}
             </motion.div>
 
             <motion.div
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Tanveer Ahmad .Dev</h3>
+              <h3 className="text-2xl font-bold">Sajid Hussain</h3>
               <p className="text-muted-foreground">
-                Junior MERN-Stack Developer @ TICER
+                Senior Noon Expert <br /> A-Z Account Management @ EcomZone
               </p>
             </motion.div>
 
@@ -189,17 +188,17 @@ const AboutSection = () => {
               className="flex flex-wrap gap-2 justify-center lg:justify-start"
             >
               <Badge variant="outline" className="bg-primary/10">
-                React JS
+                Noon Expert
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                Node JS
+                Account Management
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                UI/UX
+                Brand Approval
               </Badge>
               <Badge variant="outline" className="bg-primary/10">
-                Full Stack 
-                </Badge>
+                Sales Boostup
+              </Badge>
             </motion.div>
 
             <motion.div
@@ -208,10 +207,14 @@ const AboutSection = () => {
               whileTap={{ scale: 0.98 }}
             >
               <Button className="gap-2" asChild onClick={handledownload}>
-                <a href={resumeUrl}  target="_blank" download="Tanveer_Ahmad_Dev_CV.pdf">
+                {/* <a href={resumeUrl} target="_blank" download="Tanveer_Ahmad_Dev_CV.pdf">
                   <Download className="w-4 h-4" />
                   Download Resume
-                </a>
+                </a> */}
+                {/* <a href={resumeUrl} target="_blank" download="Sajid_Hussain_Resume.pdf">
+                  <Download className="w-4 h-4" />
+                  Download Resume
+                </a> */}
               </Button>
             </motion.div>
           </motion.div>
