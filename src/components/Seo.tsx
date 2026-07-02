@@ -8,7 +8,7 @@ interface SeoProps {
 }
 
 const Seo = ({
-  title = "Sajid Hussain | MERN Student",
+  title = "Sajid Hussain | Ecommerce Expert",
   description = "Portfolio website of Sajid Hussain, a software engineering student specializing in full-stack development.",
   keywords = "Sajid Hussain, ",
   ogImage = "/og-image.jpg",
