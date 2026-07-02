@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "923000695646"; // International format without +
+  const phoneNumber = "923346022474"; // International format without +
   const message = encodeURIComponent("Greetings!.");
   const url = `https://wa.me/${phoneNumber}?text=${message}`;
 
